@@ -26,9 +26,9 @@ public:
     중복 = (값_1 + 값_2) / 2
     중복 + 누락 = 값 으로 누락 또한 알 수 있습니다.
 
-    s = \sum_{i=0}^{\mathrm{nums.size()}-1} \mathrm{nums}[i]
+    s = sum(nums[i], i=0..nums.size()-1)
 
-    q = \sum_{i=0}^{\mathrm{nums.size()}-1} \mathrm{nums}[i]^2
+    q = sum(nums[i]^2, i=0..nums.size()-1)
 
     d = duplicate - missing
     
